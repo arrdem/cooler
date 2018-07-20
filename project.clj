@@ -1,10 +1,15 @@
 (defproject me.arrdem/cooler "_"
-  :description "FIXME"
+  :description "Cool your merges down. To zero."
   :url "http://github.com/arrdem/cooler"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure "1.9.0"]]
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/java.jdbc "0.7.7"]
+                 [ring/ring "1.7.0-RC1"]
+                 [cheshire "5.8.0"]
+                 [org.postgresql/postgresql "42.2.4"]
+                 [hiccup "1.0.5"]]
 
   :source-paths      ["src/main/clj"
                       "src/main/cljc"]
